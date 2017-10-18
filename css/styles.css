@@ -1,12 +1,16 @@
-.clickable {
+.term {
   text-decoration: underline;
   color: green;
 }
 
-.clickable:hover {
+.term:hover {
   cursor: pointer;
 }
 
 .hide {
   display: none;
+}
+
+.show {
+  display: block;
 }

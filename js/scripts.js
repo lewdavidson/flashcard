@@ -1,9 +1,7 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#jsterm").toggle("#jsdef");
-    $("#jsdef").toggle(".hide");
-  });
 
+  $(".term#jsterm").click(function(){
+    $(".definition#jsdef").toggleClass(".show")
   });
 
 
